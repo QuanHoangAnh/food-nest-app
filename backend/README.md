@@ -70,39 +70,3 @@ npm run migration:run
 npm run migration:revert
 ```
 
-
-## Entities
-
-```mermaid
-classDiagram
-
-    class Ingredient {
-        +string id
-        +string name
-        +string supplier
-    }
-
-    class PriceHistory {
-        +string id
-        +number price
-        +Date changedAt
-        +string ingredientId
-    }
-
-    class Recipe {
-        +string id
-        +string name
-        +string description
-    }
-
-    class RecipeIngredient {
-        +string id
-        +number quantity
-        +string recipeId
-        +string ingredientId
-    }
-
-    Ingredient "1" --> "0..*" PriceHistory
-    Recipe "1" --> "0..*" RecipeIngredient
-    RecipeIngredient "1" --> "1" Ingredient
-```
