@@ -36,7 +36,9 @@
 - ✅ Using **Swagger** and **Api-Versioning** for application apis
 - ✅ Using [Problem Details](/backend/src/libs/core/exceptions) standard for readable details of errors.
 - ✅ Using Docker-Compose for our deployment mechanism.
-- ✅ Using sortable `uuid v7` for Ids
+- ✅ Using sortable **uuid v7** for Ids
+- ✅ Using **Optimistic Conurrency** based on TypeORM concurrency token
+- ✅ Using **Soft Delete** based on TypeORM
 
 ## Technologies - Libraries
 
@@ -44,6 +46,7 @@
 - ✔️ **[`nestjs/nest`](https://github.com/nestjs/nest)** - Nest is a framework for building efficient, scalable Node.js server-side applications
 - ✔️ **[`nestjs/cqrs`](https://github.com/nestjs/cqrs)** - A lightweight CQRS module for Nest framework (node.js)
 - ✔️ **[`nestjs/typeorm`](https://github.com/nestjs/typeorm)** - TypeORM module for Nest
+- ✔️ **[`tada5hi/typeorm-extension`](https://github.com/tada5hi/typeorm-extension)** - This library provides utitlites to create & drop the database, seed the database and apply URL query parameter(s)
 - ✔️ **[`nestjs/swagger`](https://github.com/nestjs/swagger)** - OpenAPI (Swagger) module for Nest
 - ✔️ **[`open-telemetry/opentelemetry-js`](https://github.com/open-telemetry/opentelemetry-js)** - A framework for collecting traces, metrics, and logs from applications
 - ✔️ **[`motdotla/dotenv`](https://github.com/motdotla/dotenv)** - Dotenv is a zero-dependency module that loads environment variables from a .env
@@ -56,6 +59,7 @@
 - ✔️ **[`eslint/eslint`](https://github.com/eslint/eslint)** - ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code
 - ✔️ **[`prettier/prettier`](https://github.com/prettier/prettier)** - Opinionated Code Formatter
 - ✔️ **[`uuidjs/uuid`](https://github.com/uuidjs/uuid)** - Generate RFC-compliant UUIDs in JavaScript
+- ✔️ **[`@fluffy-spoon/substitute`](https://github.com/ffMathy/FluffySpoon.JavaScript.Testing.Faking)** - An NSubstitute port to TypeScript called substitute.js
 
 ## Set up and Start the Infrastructure
 
