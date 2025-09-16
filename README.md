@@ -39,6 +39,7 @@
 - ✅ Using sortable **uuid v7** for Ids
 - ✅ Using **Optimistic Conurrency** based on TypeORM concurrency token
 - ✅ Using **Soft Delete** based on TypeORM
+- ✅ Integration **Aspire** for hosting application
 
 ## Technologies - Libraries
 
