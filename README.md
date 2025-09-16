@@ -1,6 +1,9 @@
 # Food NEST Application
 
+[![Backend CI Pipeline](https://github.com/mehdihadeli/food-nest-app/actions/workflows/ci.yml/badge.svg)](https://github.com/mehdihadeli/food-nest-app/actions/workflows/ci.yml)
+
 > 💡 A practical api sample based on Vertical Slice Architecture, NestJs, TypeORM and OpenTelemetry.
+
 
 ## Table of Contents
 
